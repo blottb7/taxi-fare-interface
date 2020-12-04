@@ -1,22 +1,22 @@
 const algoliaPlacesApiAppId = 'plU4N8HG6QWK';
 const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
 const mapboxApiToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
-<<<<<<< HEAD
+// <<<<<<< HEAD
 const taxiFareApiUrl = 'http://taxifare.lewagon.ai/predict_fare/';
-=======
-const taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict_fare/';
->>>>>>> ab38f663c93297f073b27d5b5235658d1f539498
+// =======
+// const taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict_fare/';
+// >>>>>>> ab38f663c93297f073b27d5b5235658d1f539498
 
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
   const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-<<<<<<< HEAD
-    center: [-74.00597,40.71427], // starting position [lng, lat]
-=======
+// <<<<<<< HEAD
+    // center: [-74.00597,40.71427], // starting position [lng, lat]
+// =======
     center: [-74.00597, 40.71427], // starting position [lng, lat]
->>>>>>> ab38f663c93297f073b27d5b5235658d1f539498
+// >>>>>>> ab38f663c93297f073b27d5b5235658d1f539498
     zoom: 10 // starting zoom
   });
 
