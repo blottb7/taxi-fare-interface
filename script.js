@@ -181,11 +181,10 @@ const initFlatpickr = () => {
 };
 
 const predict = () => {
-<<<<<<< HEAD
+
   form = document.querySelector('form');
-=======
-  const form = document.querySelector('form');
->>>>>>> ab38f663c93297f073b27d5b5235658d1f539498
+
+
   if (form) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
@@ -207,12 +206,12 @@ const predict = () => {
       fetch(url, {
         method: 'GET',
         headers: {
-<<<<<<< HEAD
-          'Content-Type': 'application/json'
-=======
+
+
+
           'Content-Type': 'application/json',
           'Access-Control-Allow-Origin': '*'
->>>>>>> ab38f663c93297f073b27d5b5235658d1f539498
+
         }
       })
       .then(response => response.json())
